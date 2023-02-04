@@ -11,7 +11,7 @@ function App() {
     <div className="App">
       <Header />
       <Store />
-      <Payments image={payment} title='Easily track your payments.'/>
+      <Payments image={payment} title='Easily track your payments.' button='How'/>
       <Payments image={pay} title='Easily track your payments.' button='Track'/>
     </div>
   );
